@@ -1,13 +1,10 @@
 package ParametrosArgumentos;
 
-//import javax.swing.JOptionPane;
-
 public class Operacion {
     // Atributos
     int suma, resta, multi, div; //variables globales
 
     // Métodos
-
     public void sumar(int n1, int n2) { //variables locales
         suma = n1 + n2;
     }
