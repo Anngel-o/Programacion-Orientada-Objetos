@@ -1,4 +1,4 @@
-package Practica.CalcularArea;
+package CalcularArea;
 
 public class Cuadrilatero {
     private float lado1;

@@ -1,4 +1,4 @@
-package Practica.CalcularArea;
+package CalcularArea;
 
 import javax.swing.JOptionPane;
 

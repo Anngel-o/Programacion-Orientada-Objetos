@@ -1,4 +1,4 @@
-package Practica.BuscarVehiculo;
+package BuscarVehiculo;
 
 public class Vehiculo {
     private String marca;
