@@ -8,7 +8,7 @@ public class App {
         //     System.out.println(((Pais)obj).getNombre());
         // }
         // System.out.println();
-        
+
         // for (Object obj : dao.getPaises()) {
         //     System.out.println(((Pais)obj).getNombre());
         // }
@@ -23,6 +23,12 @@ public class App {
         System.out.println();
 
         for (Object obj : dao.getPaises()) {
+            System.out.println(((Pais)obj).getNombre());
+        }
+
+        PaisDAOImpl dao2 = PaisDAOImpl.getInstancia();
+
+        for (Object obj : dao2.getPaises()) {
             System.out.println(((Pais)obj).getNombre());
         }
     }

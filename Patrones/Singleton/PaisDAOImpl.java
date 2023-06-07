@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PaisDAOImpl {
+    private PaisDAOImpl() {
+        
+    }
     public static PaisDAOImpl instancia = null;
     public static PaisDAOImpl getInstancia() {
         if (instancia == null){
